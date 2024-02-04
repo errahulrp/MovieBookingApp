@@ -57,8 +57,6 @@ const ShowSummary = () => {
 
   const handleBookTicket = () => {
     if (validateForm()) {
-      // Implement your booking logic here
-      // For now, just set isBooked to true
       setIsBooked(true);
     }
   }
